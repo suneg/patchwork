@@ -12,7 +12,7 @@ function AssertIsElevated()
 	    [Security.Principal.WindowsBuiltInRole] "Administrator"))
 
 	{
-	    Write-Warning "You do not have Administrator rights to run this script!`nPlease re-run this script as an Administrator/Elevated!"
+	    Write-Warning "You do not have the administrative rights required to run this command!`nPlease re-run this script as an Administrator/Elevated!"
 	    Break
 	}
 }
